@@ -18,7 +18,7 @@ public class Problem1 {
             prefixSum[i] = prefixSum[i - 1] + arr[i];
         }
 
-        System.out.println("Get sum between 0 to 2 : " + getSum(prefixSum, 0, 2));
-        System.out.println("Get sum between 2 to 4 : " + getSum(prefixSum, 2, 4));
+        System.out.println("Get sum between 0 to 2 : " + getSum(prefixSum, 0, 2));//25
+        System.out.println("Get sum between 2 to 4 : " + getSum(prefixSum, 2, 4));//63
     }
 }
